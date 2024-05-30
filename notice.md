@@ -29,7 +29,7 @@ allez dans **"Fichier"** puis selectionneé **"modifier la clé principale"**
 Vous pouvez entrer ce que vous souhaitait à la condition d'avoir une clé de minimun **"101 bit"** *(une longue phrase facile à retenir peut faire l'affaire)*.
 
 
-![4](image.png)
+![4](https://github.com/damdupre/keepass/blob/notice-utilisateur/screenshot%20keepass/3.png?raw=true)
 
 
 ## **Organisation de la base données**
