@@ -57,9 +57,9 @@ Si vous avez besoin vous pouvez crée un nouveaux groupe pour rassembler vos mot
 Faire un clic droit sur  **Base de données** et selectionner ajouter un groupe .
 Donnez un nom au nouveaux groupe crée puis faite ok.
 
-![alt text](image-9.png)
+![alt text](https://github.com/damdupre/keepass/blob/notice-utilisateur/screenshot%20keepass/4.png?raw=true))
 
 Bonne utilisation
-Pour plus détaille voir la [page d'aide de keepass][6]
+Pour plus détaille voir la [page d'aide de keepass][https://keepass.info/help/base/firststeps.html]
 
 
