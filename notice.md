@@ -1,6 +1,8 @@
 # **Utilisation Keepass**
 
+## petit mot sur keepas 
 
+KeePass est un gestionnaire de mots de passe open source gratuit, qui vous aide à gérer vos mots de passe de manière sécurisée. Vous pouvez stocker tous vos mots de passe dans une seule base de données, verrouillée avec une clé principale. Il vous suffit donc de mémoriser une seule clé principale pour déverrouiller toute la base de données. Les fichiers de la base de données sont cryptés à l'aide des algorithmes de cryptage les meilleurs et les plus sécurisés actuellement connus (AES-256, ChaCha20 et Twofish). Pour plus d’informations, consultez la page
 ----------
 
 
