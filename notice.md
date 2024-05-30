@@ -49,7 +49,7 @@ Donner un titre a votre mot de passe.
 saississer les indentifiants de connexion.   
 cliquer sur ok pour sauvegarde
 
-![alt text](image-8.png)
+![alt text](https://github.com/damdupre/keepass/blob/notice-utilisateur/screenshot%20keepass/saisie%20mdp.png?raw=true)
 
 ### **création nouveaux groupe**
 Si vous avez besoin vous pouvez crée un nouveaux groupe pour rassembler vos mot de passe pour une categorie qui n'existe pas déja.
