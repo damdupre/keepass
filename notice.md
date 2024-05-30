@@ -11,7 +11,7 @@
 
 Votre clé principale doit être une phrase que seul vous connaissaie, elle nepeut pas être stocker sur votre poste, une page sur laquelle vous pourrez écrire votre clé principal sera éditée, vous remplirez les champs demandés et garder ce document car votre mot de passe ne peux pas être sauvegarder par un tiers.
 
-![alt text](image.png)
+![feuille secour][(image.png)](https://github.com/damdupre/keepass/blob/notice-utilisateur/screenshot%20keepass/feuille%20secour.png?raw=true)
 
 
 ## **Saisie de votre mot de passe personelle**
