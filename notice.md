@@ -43,7 +43,7 @@ Dans keepass vous pouvez organiser vos mot de passe en les regroupants par group
 Sélectionner le groupe auquel appartien le mot de passe .  
 cliquer sur **"nouvelle entrée"**
 
-![alt text](image-7.png)
+![alt text](https://github.com/damdupre/keepass/blob/notice-utilisateur/screenshot%20keepass/saisie%20mdp.png?raw=true)
 
 Donner un titre a votre mot de passe.  
 saississer les indentifiants de connexion.   
