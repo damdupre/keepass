@@ -36,7 +36,7 @@ Vous pouvez entrer ce que vous souhaitait à la condition d'avoir une clé de mi
 
 Dans keepass vous pouvez organiser vos mot de passe en les regroupants par groupe pour faciliter la gestion.
 
-![alt text](image-5.png)
+![alt text](https://github.com/damdupre/keepass/blob/notice-utilisateur/screenshot%20keepass/image-5.png?raw=true)
 
 
 ### **création nouveaux mot de passe**
