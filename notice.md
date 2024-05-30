@@ -24,7 +24,7 @@ A l'ouverture de KEEPASS la clé principale par defaut est **"keepasswild"**
 
 allez dans **"Fichier"** puis selectionneé **"modifier la clé principale"**
 
-![alt text](image-4.png)
+![alt text](https://github.com/damdupre/keepass/blob/notice-utilisateur/screenshot%20keepass/image-4.png?raw=true)
 
 Vous pouvez entrer ce que vous souhaitait à la condition d'avoir une clé de minimun **"101 bit"** *(une longue phrase facile à retenir peut faire l'affaire)*.
 
