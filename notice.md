@@ -18,7 +18,7 @@ Votre clé principale doit être une phrase que seul vous connaissaie, elle nepe
 A l'ouverture de KEEPASS la clé principale par defaut est **"keepasswild"**
 
 
-
+![saisie mot de passe](https://github.com/damdupre/keepass/blob/notice-utilisateur/screenshot%20keepass/saisie%20mot%20de%20passe.png?raw=true)
 
 
 
