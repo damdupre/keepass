@@ -70,7 +70,7 @@ ip a
 
 On la trouvera dans le bloc suivant :
 
-![afficherip.png]
+![[afficherip.png](https://github.com/damdupre/keepass/blob/notice-install/screen_installmd/afficherip.png?raw=true)
 
 Il faudra la rentrer dans le champ _"Host Name"_ et s'assurer que SSH est bien coché dans _"Connection type"_ . 
 Un message d'erreur va apparaître : le client ne dispose pas de la clé du serveur SSH. Il va falloir accepter la clé. Cliquez sur "Oui".
