@@ -1,8 +1,8 @@
-<div align="center">![logo](https://imtc.qccdn.fr/test/gestionnaires-de-mots-de-passe/zoom/keepass-password-safe_001.jpg)</div>  
-## Membre du staff
-Mr Jiani carel BATCHI  
-Mr Nicolas TOUREAU Procuct owner (s1) scrum master (s2)     
-Mr Damien DUPRÉ scrum master (s1) product owner (s2)
+<div align="center">![logo](https://imtc.qccdn.fr/test/gestionnaires-de-mots-de-passe/zoom/keepass-password-safe_001.jpg)
+## Membre du staff  
+Mr Jiani carel BATCHI    
+Mr Nicolas TOUREAU Procuct owner (s1) scrum master (s2)       
+Mr Damien DUPRÉ scrum master (s1) product owner (s2)  
 
 ## Le projet Keepass
 Keepass est un gestionnaire de mot de passe open-source. 
