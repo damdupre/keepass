@@ -1,4 +1,4 @@
-<p align="center">< src="https://imtc.qccdn.fr/test/gestionnaires-de-mots-de-passe/zoom/keepass-password-safe_001.jpg"></p>
+![logo](https://imtc.qccdn.fr/test/gestionnaires-de-mots-de-passe/zoom/keepass-password-safe_001.jpg)
 
 
 ## Membre du staff  
