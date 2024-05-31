@@ -1,4 +1,4 @@
-
+![logo](https://keepass.fr/wp-content/uploads/2023/03/logo-keepass.png)
 ## Membre du staff
 Mr Jiani carel BATCHI  
 Mr Nicolas TOUREAU Procuct owner (s1) scrum master (s2)     
