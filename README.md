@@ -1,4 +1,4 @@
-<p align="center"> ![logo](https://imtc.qccdn.fr/test/gestionnaires-de-mots-de-passe/zoom/keepass-password-safe_001.jpg)</p>
+<p align="center"> ![logo](https://imtc.qccdn.fr/test/gestionnaires-de-mots-de-passe/zoom/keepass-password-safe_001.jpg) </p>
 ## Membre du staff  
 Mr Jiani carel BATCHI    
 Mr Nicolas TOUREAU Procuct owner (s1) scrum master (s2)       
