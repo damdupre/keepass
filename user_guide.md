@@ -61,7 +61,7 @@ Donnez un nom au nouveaux groupe crée puis faite ok.
 
 ![alt text](https://github.com/damdupre/keepass/blob/notice-utilisateur/screenshot%20keepass/4.png?raw=true))
 
-Bonne utilisation
+Bonne utilisation  
 Pour plus détaille voir la [page d'aide de keepass](https://keepass.info/help/base/firststeps.html)
 
 
