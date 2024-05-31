@@ -9,7 +9,7 @@ apt-cache policy openssh-server
 
 Auquel cas le serveur devra répondre :
 
-![verificationserveur.png]
+![verificationserveur]
 
 Notez que vous pouvez également vérifier si l'installation est présente sur le système en recherchant le fichier de configuration du serveur avec la commande :
 ```
@@ -18,7 +18,7 @@ ls -al /etc/ssh/sshd_config
 
 Ici, le serveur devra répondre :
 
-![verifcationconfig.png]
+![verifcationconfig]
 
 Maintenant que nous sommes certains que OpenSSH est bien installé, on peut passer à la gestion du serveur.
 
@@ -29,7 +29,7 @@ systemctl status sshd
 ```
 S'il est bien actif, le serveur répondra: 
 
-![verifserveuractif.png]
+![verifserveuractif]
 
 Au besoin, les commandes pour le démarrer, le stopper et le redémarrer sont les suivantes :
 
@@ -60,7 +60,7 @@ Depuis un client Windows, un logiciel est nécessaire pour établir la connexion
 
 Une fois téléchargé et exécuter, la fenêtre suivante va apparaître:
 
-![puttyexe.png]
+![puttyexe]
 
 Dans l'onglet SSH, on saisit l'adresse IP du serveur que l'on peut trouver avec la commande suivante :
 
@@ -70,16 +70,16 @@ ip a
 
 On la trouvera dans le bloc suivant :
 
-![afficherip.png]
+![afficherip]
 
 Il faudra la rentrer dans le champ _"Host Name"_ et s'assurer que SSH est bien coché dans _"Connection type"_ . 
 Un message d'erreur va apparaître : le client ne dispose pas de la clé du serveur SSH. Il va falloir accepter la clé. Cliquez sur "Oui".
 
-![erreurputty.png]
+![erreurputty]
 
 Un Shell va s'ouvrir dans lequel il vous sera demandé de vous identifier avec les identifiants du serveur Debian.
 
-![terminalputty.png]
+![terminalputty]
 
 Le poste client est désormais connecté au serveur SSH.
 
