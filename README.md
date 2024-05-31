@@ -1,4 +1,4 @@
-![logo](https://keepass.fr/wp-content/uploads/2023/03/logo-keepass.png) ![nom](https://keepass.fr/wp-content/uploads/2023/03/logo-keepass.png)
+![logo](https://imtc.qccdn.fr/test/gestionnaires-de-mots-de-passe/zoom/keepass-password-safe_001.jpg)
 ## Membre du staff
 Mr Jiani carel BATCHI  
 Mr Nicolas TOUREAU Procuct owner (s1) scrum master (s2)     
