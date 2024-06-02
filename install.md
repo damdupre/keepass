@@ -1,4 +1,4 @@
-# Guide de complet de l'installation keepass sur Poste client 
+# Guide complet de l'installation keepass sur Poste client 
 
 
 ## Introduction
