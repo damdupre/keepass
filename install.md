@@ -96,6 +96,28 @@ Un message d'erreur va apparaître : le client ne dispose pas de la clé du serv
 ![erreurputty.jpg](https://github.com/damdupre/keepass/blob/notice-install/screen_installmd/erreurputty.jpg?raw=true)
 
 Un Shell va s'ouvrir dans lequel il vous sera demandé de vous identifier avec les identifiants du serveur Debian.
+La liaison entre les deux appareils n'est pas sécurisée. Il faut désormais générer la clé SSH/
+
+En installant _Putty_, _PuttyGen_ l'a également été. Lancez PuttyGen, assurez-vous de bien sélectionner le bon type de clé (SSH-RSA) et entrez votre passphrase. Cliquez sur "Generate".
+Il faut enfin cliquer sur "Save public key" et "Save private key".
+
+Il faut désormais envoyer la clé publique sur le serveur. 
+
+```
+ssh-copy-id -i ~/.ssh/id_rsa_groupeServeurA.pub root@192.168.1.14
+```
+
+Une série de messages de confirmation valideront que la clé a bien été ajoutée au serveur.
+Il sera désormais possible de se connecter au serveur via la commande :
+
+```
+ssh utilisateur@serveur
+```
+
+Sous Windows, on peut récupérer le contenu de la clé publique en l'ouvrant avec un bloc-notes. Il n'y a plus qu'à le transférer dans le fichier "authorized_keys".
+
+Il faut désormais renseigner _Putty_ sur l'endroit où se trouve notre clé privée. Lancez _Putty_ et renseignez l'IP du serveur (192.168.1.14). Dans la partie "_Connexion_">"_SSH_">"_Auth_" puis enfin sur "_Browse_" pour aller récupérer la clé. La connexion s'effectuera en cliquant sur "_Open_". Sélectionnez l'utilisateur où est stockée la clé et entrez la passphrase.
+
 
 # Guide complet de l'installation keepass sur Poste client 
 
@@ -120,7 +142,7 @@ Un Shell va s'ouvrir dans lequel il vous sera demandé de vous identifier avec l
 2. **Créer une Nouvelle Base de Données** :
    - Cliquez sur "File" dans la barre de menu.
    - Sélectionnez "New..." pour créer une nouvelle base de données.
-   - Choisissez un emplacement pour enregistrer votre base de données et donnez-lui un nom.
+   - Choisissez un emplacement sur le serveur pour enregistrer votre base de données et donnez-lui un nom.
    - Cliquez sur "Enregistrer" (Save).
 
 3. **Définir un Mot de Passe Principal** :
