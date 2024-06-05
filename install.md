@@ -4,14 +4,15 @@
 2. [Gestion d'Open SSH](#gestion-dopenssh)
 3. [Connexion depuis un poste client](#connexion-depuis-un-poste-client)
 4. [En cas de coupure du serveur SSH](#en-cas-de-coupure-du-serveur-ssh)
-5. [Installation de KeePass](#installation-de-keepass)
-6. [Création d'une Nouvelle Base de Données](#création-dune-nouvelle-base-de-données)
-7. [Ajout de Mots de Passe](#ajout-de-mots-de-passe)
-8. [Organisation des Mots de Passe](#organisation-des-mots-de-passe)
-9. [Utilisation des Mots de Passe](#utilisation-des-mots-de-passe)
-10. [Sauvegarde et Synchronisation](#sauvegarde-et-synchronisation)
-11. [Conseils de Sécurité](#conseils-de-sécurité)
-12. [FAQ](#faq)
+5. [Configuration de Keepass sur le serveur SSH](#configuration-de-keepass-sur-le-serveur)
+6. [Installation de KeePass](#installation-de-keepass)
+7. [Création d'une Nouvelle Base de Données](#création-dune-nouvelle-base-de-données)
+8. [Ajout de Mots de Passe](#ajout-de-mots-de-passe)
+9. [Organisation des Mots de Passe](#organisation-des-mots-de-passe)
+10. [Utilisation des Mots de Passe](#utilisation-des-mots-de-passe)
+11. [Sauvegarde et Synchronisation](#sauvegarde-et-synchronisation)
+12. [Conseils de Sécurité](#conseils-de-sécurité)
+13. [FAQ](#faq)
 
 
 # **Installation de la base sécurisée SSH**
@@ -96,7 +97,7 @@ Un message d'erreur va apparaître : le client ne dispose pas de la clé du serv
 ![erreurputty.jpg](https://github.com/damdupre/keepass/blob/notice-install/screen_installmd/erreurputty.jpg?raw=true)
 
 Un Shell va s'ouvrir dans lequel il vous sera demandé de vous identifier avec les identifiants du serveur Debian.
-La liaison entre les deux appareils n'est pas sécurisée. Il faut désormais générer la clé SSH/
+La liaison entre les deux appareils n'est pas sécurisée. Il faut désormais générer la clé SSH.
 
 En installant _Putty_, _PuttyGen_ l'a également été. Lancez PuttyGen, assurez-vous de bien sélectionner le bon type de clé (SSH-RSA) et entrez votre passphrase. Cliquez sur "Generate".
 Il faut enfin cliquer sur "Save public key" et "Save private key".
@@ -118,6 +119,12 @@ Sous Windows, on peut récupérer le contenu de la clé publique en l'ouvrant av
 
 Il faut désormais renseigner _Putty_ sur l'endroit où se trouve notre clé privée. Lancez _Putty_ et renseignez l'IP du serveur (192.168.1.14). Dans la partie "_Connexion_">"_SSH_">"_Auth_" puis enfin sur "_Browse_" pour aller récupérer la clé. La connexion s'effectuera en cliquant sur "_Open_". Sélectionnez l'utilisateur où est stockée la clé et entrez la passphrase.
 
+## Configuration de Keepass sur le serveur
+
+Il est nécessaire de télécharger le plugin [IOProtocolExt](https://keepass.info/extensions/v2/ioprotocolext/IOProtocolExt-1.17.zip) pour permettre la connexion de Keepass en FSTP au serveur. 
+
+Une fois installé, vous pourrez joindre le serveur via Keepass > synchronisation. Renseignez l'url suivante : "fstp://192.168.1.14/home/dams/keepass/dbd.kdbx" et complétez l'identifiant et le mot de passe sur serveur.
+Voilà, Keepass est maitenant configuré sur le serveur. 
 
 # Guide complet de l'installation keepass sur Poste client 
 
