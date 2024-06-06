@@ -13,6 +13,7 @@ Ce projet a pour objectif de mettre en place une base de données sécurisée ut
 
 ## Rôles des Membres du Groupe pendant le Premier Sprint
 
+
 ### Damien (Scrum Master)
 
 Damien est responsable de la rédaction de la documentation pour les clients utilisant KeePass. Ses tâches incluent :
