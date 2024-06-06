@@ -5,14 +5,15 @@
 3. [Connexion depuis un poste client](#connexion-depuis-un-poste-client)
 4. [En cas de coupure du serveur SSH](#en-cas-de-coupure-du-serveur-ssh)
 5. [Configuration de Keepass sur le serveur SSH](#configuration-de-keepass-sur-le-serveur)
-6. [Installation de KeePass](#installation-de-keepass)
-7. [Création d'une Nouvelle Base de Données](#création-dune-nouvelle-base-de-données)
-8. [Ajout de Mots de Passe](#ajout-de-mots-de-passe)
-9. [Organisation des Mots de Passe](#organisation-des-mots-de-passe)
-10. [Utilisation des Mots de Passe](#utilisation-des-mots-de-passe)
-11. [Sauvegarde et Synchronisation](#sauvegarde-et-synchronisation)
-12. [Conseils de Sécurité](#conseils-de-sécurité)
-13. [FAQ](#faq)
+6. [Installation de la base de données sur le serveur](#installation-de-la-base-de-données-sur-le-serveur)
+7. [Installation de KeePass](#installation-de-keepass)
+8. [Création d'une Nouvelle Base de Données](#création-dune-nouvelle-base-de-données)
+9. [Ajout de Mots de Passe](#ajout-de-mots-de-passe)
+10. [Organisation des Mots de Passe](#organisation-des-mots-de-passe)
+11. [Utilisation des Mots de Passe](#utilisation-des-mots-de-passe)
+12. [Sauvegarde et Synchronisation](#sauvegarde-et-synchronisation)
+13. [Conseils de Sécurité](#conseils-de-sécurité)
+14. [FAQ](#faq)
 
 
 # **Installation de la base sécurisée SSH**
@@ -105,7 +106,7 @@ Il faut enfin cliquer sur "Save public key" et "Save private key".
 Il faut désormais envoyer la clé publique sur le serveur. 
 
 ```
-ssh-copy-id -i ~/.ssh/id_rsa_groupeServeurA.pub root@192.168.1.14
+scp C:\Users\user\.ssh\clépublique admin@serveur:~/.ssh.authorized_keys
 ```
 
 Une série de messages de confirmation valideront que la clé a bien été ajoutée au serveur.
@@ -123,8 +124,19 @@ Il faut désormais renseigner _Putty_ sur l'endroit où se trouve notre clé pri
 
 Il est nécessaire de télécharger le plugin [IOProtocolExt](https://keepass.info/extensions/v2/ioprotocolext/IOProtocolExt-1.17.zip) pour permettre la connexion de Keepass en FSTP au serveur. 
 
-Une fois installé, vous pourrez joindre le serveur via Keepass > synchronisation. Renseignez l'url suivante : "fstp://192.168.1.14/home/dams/keepass/dbd.kdbx" et complétez l'identifiant et le mot de passe sur serveur.
+Une fois installé, vous pourrez joindre le serveur via Keepass > synchroniser avec l'URL. Renseignez l'url suivante : "fstp://ssh utilisateur@serveur//home/user/keepass/bdd.kdbx" et complétez l'identifiant et le mot de passe sur serveur.
 Voilà, Keepass est maitenant configuré sur le serveur. 
+
+## Installation de la base de données sur le serveur
+
+Après avoir créé la base de données sur le poste client, utilisez la commande 
+
+```
+scp C:\Users\user\Documents\basetest.kdbx admin@serveur:~/bddkeepass
+```
+
+Cela collera la base de données sur le serveur.
+
 
 # Guide complet de l'installation keepass sur Poste client 
 
