@@ -116,8 +116,6 @@ Il sera désormais possible de se connecter au serveur via la commande :
 ssh utilisateur@serveur
 ```
 
-Sous Windows, on peut récupérer le contenu de la clé publique en l'ouvrant avec un bloc-notes. Il n'y a plus qu'à le transférer dans le fichier "authorized_keys".
-
 Il faut désormais renseigner _Putty_ sur l'endroit où se trouve notre clé privée. Lancez _Putty_ et renseignez l'IP du serveur (192.168.1.14). Dans la partie "_Connexion_">"_SSH_">"_Auth_" puis enfin sur "_Browse_" pour aller récupérer la clé. La connexion s'effectuera en cliquant sur "_Open_". Sélectionnez l'utilisateur où est stockée la clé et entrez la passphrase.
 
 ## Configuration de Keepass sur le serveur
