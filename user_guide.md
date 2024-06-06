@@ -61,6 +61,11 @@ Donnez un nom au nouveaux groupe crée puis faite ok.
 
 ![alt text](https://github.com/damdupre/keepass/blob/notice-utilisateur/screenshot%20keepass/4.png?raw=true))
 
+Une fois les entrées saisie sauvegerder avant de quitter  
+
+![Capture d’écran 2024-06-06 165022](https://github.com/damdupre/keepass/assets/169659054/3b8cc57e-87f0-4743-bb83-fab45a04b8d5)
+
+
 Bonne utilisation  
 Pour plus détaille voir la [page d'aide de keepass](https://keepass.info/help/base/firststeps.html)
 
