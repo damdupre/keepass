@@ -73,14 +73,26 @@ Nicolas est responsable de la configuration de l'authentification par clé SSH e
 
 
 
-
-
 ## Difficultés Rencontrées
 
 
 ## Solutions trouvées
 
 ## Test Réalisés
+
+## Outils de Travail Collaboratif : Miro
+
+Pour faciliter la collaboration et la planification visuelle, nous utilisons Miro. Cet outil permet à l'équipe de :
+
+- Créer et partager des tableaux de bord visuels pour suivre l'avancement du projet.
+- Brainstormer des idées et organiser des sessions de mind mapping.
+- Planifier et structurer les sprints de manière interactive.
+- Faciliter les discussions et les décisions en temps réel grâce à une interface visuelle intuitive.
+
+Les tableaux Miro sont intégrés dans notre documentation GitHub pour un accès facile et une meilleure coordination au sein de l'équipe. Voici comment intégrer un tableau Miro dans notre documentation :
+
+![Tableau Miro]()
+![Tableau Miro]()
 
 
 ---
