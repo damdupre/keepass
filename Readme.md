@@ -40,6 +40,40 @@ Jiani est responsable de la rédaction de la documentation sur l'installation du
 - Collaborer avec Damien et Nicolas pour assurer la cohérence de la documentation.
 - Tester les procédures d'installation pour s'assurer qu'elles sont faciles à suivre et sans erreurs.
 
+## Rôles des Membres du Groupe pendant le Second Sprint
+
+### Jiani (Scrum Master)
+
+Jiani est responsable de la coordination du second sprint et de la gestion des outils de documentation. Ses tâches incluent :
+
+- Coordonner les efforts du sprint et faciliter les réunions de sprint.
+- Ajouter les informations du sprint de la semaine 2 dans la documentation.
+- Intégrer Miro dans la documentation GitHub pour améliorer la collaboration visuelle et la planification.
+- Assurer que l'équipe respecte les méthodologies agiles et les délais du projet.
+
+### Damien (Product Owner)
+
+Damien est chargé des aspects techniques liés à la génération et à la gestion des clés SSH. Ses tâches incluent :
+
+- Générer les clés SSH via PuTTY.
+- Sauvegarder les clés privée et publique de manière sécurisée.
+- Ajouter la clé publique sur le serveur pour permettre l'accès sécurisé.
+- Installer et configurer le protocole IOprotocoleExt sur le serveur.
+
+### Nicolas
+
+Nicolas est responsable de la configuration de l'authentification par clé SSH et de la création de tunnels sécurisés. Ses tâches incluent :
+
+- Configurer l'authentification par clé SSH sur le serveur.
+- Créer un tunnel SSH pour sécuriser les communications entre le client et le serveur.
+- Collaborer avec Damien pour s'assurer que les clés SSH sont correctement générées et installées.
+- Tester les configurations pour garantir qu'elles fonctionnent correctement et sans erreurs.
+
+
+
+
+
+
 ## Difficultés Rencontrées
 
 
