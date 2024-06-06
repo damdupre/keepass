@@ -235,5 +235,3 @@ KeePass permet d'importer des mots de passe à partir de formats CSV ou d'autres
 
 ![terminalputty.png](https://github.com/damdupre/keepass/blob/notice-install/screen_installmd/terminalputty.png?raw=true)
 
-Le poste client est désormais connecté au serveur SSH.
-
