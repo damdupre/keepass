@@ -70,15 +70,25 @@ Nicolas est responsable de la configuration de l'authentification par clé SSH e
 - Collaborer avec Damien pour s'assurer que les clés SSH sont correctement générées et installées.
 - Tester les configurations pour garantir qu'elles fonctionnent correctement et sans erreurs.
 
-
-
-
 ## Difficultés Rencontrées
 
+Ajout clé publique sur serveur
 
 ## Solutions trouvées
 
+Installation IOProtocleEXT
+
 ## Test Réalisés
+
+Des tests ont été effectués pour évaluer l'efficacité et l'intégration de notre Base de Données Sécurisée sur KeePass avec un Serveur Debian pour un Client Microsoft. Les résultats ont été concluants :
+
+- **Sécurité des Données** : Les tests ont confirmé que la base de données est bien sécurisée et les accès non autorisés sont empêchés.
+- **Compatibilité** : L'installation et la configuration de KeePass sur un serveur Debian pour un client Microsoft ont été réussies sans problèmes de compatibilité.
+- **Performance** : La performance du serveur et du client a été optimale, avec des temps de réponse rapides et une utilisation efficace des ressources.
+- **Facilité d'Utilisation** : Les utilisateurs finaux ont trouvé les guides d'installation et d'utilisation clairs et faciles à suivre.
+- **Stabilité** : Le système s'est avéré stable pendant les tests, avec une disponibilité continue et sans interruptions.
+
+Les tests confirment que notre solution de Base de Données Sécurisée sur KeePass avec un Serveur Debian pour un Client Microsoft est fiable et efficace.
 
 ## Outils de Travail Collaboratif : Miro
 
@@ -89,10 +99,10 @@ Pour faciliter la collaboration et la planification visuelle, nous utilisons Mir
 - Planifier et structurer les sprints de manière interactive.
 - Faciliter les discussions et les décisions en temps réel grâce à une interface visuelle intuitive.
 
-Les tableaux Miro sont intégrés dans notre documentation GitHub pour un accès facile et une meilleure coordination au sein de l'équipe. Voici comment intégrer un tableau Miro dans notre documentation :
+Les tableaux Miro sont intégrés dans notre documentation GitHub pour un accès facile et une meilleure coordination au sein de l'équipe. Voici nos sprints :
 
-![Tableau Miro]()
-![Tableau Miro]()
+![Tableau Miro](https://github.com/damdupre/keepass/blob/notice-poste-client/sprint1.png)
+![Tableau Miro](https://github.com/damdupre/keepass/blob/notice-poste-client/sprint2.png)
 
 
 ---
